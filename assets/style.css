@@ -20,6 +20,18 @@ a{
     display: flex;
 }
 
+.justify-center{
+    justify-content: center;  
+}
+
+.gap{
+    gap: 15px;
+}
+
+.px-20{
+    padding-top: 20px;
+}
+
 .space-around{
     justify-content: space-around;
 }
@@ -28,7 +40,7 @@ a{
     vertical-align: middle;
 }
 
-.py-4{
+.py-10{
     padding-top: 10px;
 }
 
@@ -38,6 +50,31 @@ a{
 
 .px-10{
     padding-right: 10px;
+}
+
+.img-w{
+    width: 300px;
+    height: 400px;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+    top: 2%;
+    left: 89%;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.c-red{
+    color: red;
+    font-weight: bold;
+    display: inline-block;
 }
 
 /* #endregion utilities */
@@ -54,9 +91,43 @@ header{
     width: 100px;
 }
 
+.heart{
+    border: 1px solid none;
+    background-color: white;
+    padding: 10px 11px;
+    font-size: 20px
+}
+
 /* #endregion header */
 
 /* #region main */
+
+.sustain{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    border: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #008000;
+    color: white;
+
+}
+
+.discount{
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+    border: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ff0000;
+    color: white;
+}
 /* #endregion main */
 
 /* #region footer */
