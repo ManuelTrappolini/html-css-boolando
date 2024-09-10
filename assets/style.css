@@ -24,12 +24,6 @@ a{
     justify-content: center;  
 }
 
-.position-sticky{
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-
 .gap{
     gap: 15px;
 }
@@ -102,7 +96,9 @@ a{
 header{
     height: 40px;
     background-color: #ff6900;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .b-logo{
