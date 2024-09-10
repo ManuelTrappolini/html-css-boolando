@@ -32,12 +32,12 @@ a{
     padding-top: 20px;
 }
 
-.space-around{
+.space-evenly{
     justify-content: space-evenly;
 }
 
-.align-middle{
-    vertical-align: middle;
+.align-center{
+    align-items: center;
 }
 
 .py-10{
@@ -95,7 +95,10 @@ header{
     top: 0;
     z-index: 1;
 }
-
+.p-head{
+    padding-left: 260px;
+    padding-right: 250px;
+}
 .b-logo{
     width: 100px;
 }
